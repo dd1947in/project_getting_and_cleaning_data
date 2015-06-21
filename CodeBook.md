@@ -1,5 +1,5 @@
 
-CodeBook for smart phone data analysis (accelerometer & gyroscope data) 
+CodeBook for smart phone data analysis (accelerometer and gyroscope data) 
 ------------------------------------------------------------------------
 
 Back Ground
