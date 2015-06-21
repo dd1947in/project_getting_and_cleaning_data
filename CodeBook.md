@@ -84,7 +84,7 @@ ColumnIndex     ColumnName   ColumnNameDesc<br>
 424 V424                   fBodyGyro_mean_X<br>
 425 V425                   fBodyGyro_mean_Y<br>
 426 V426                   fBodyGyro_mean_Z<br>
-427 V427                    fBodyGyro_std_Xv
+427 V427                    fBodyGyro_std_Xv<br>
 428 V428                    fBodyGyro_std_Y<br>
 429 V429                    fBodyGyro_std_Z<br>
 503 V503                   fBodyAccMag_mean<br>
