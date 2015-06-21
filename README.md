@@ -34,8 +34,8 @@ summarise_each()
 
 This project is to be evaluated by peers by sourcing the script  "run_analysis.R" preferably in RStudio as displays  console output and Global Environment :
 >source("run_analysis.R")
-Here is the console 
-[1] " ... downloading data set ..."
+Here is the console output<br>
+[1] " ... downloading data set ..."<br>
 [1] " ... unzipping the data  set ..."
 [1] " ... loading features.txt, activity_labels.txt ..."
 [1] " ... loading train set ..."
