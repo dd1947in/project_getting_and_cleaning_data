@@ -138,7 +138,7 @@ Tidy Dataset
 		<b>xxxx_test_and_train_subset.tab</b>  data frame has one row per <b>subject/volunteer</b> . Each row has <b>subject_id + 72 features</b> . 
 		The value in each feature column  represents the <b>mean value calculated for this subject/volunteer</b> alone.
 		Our generated dataset will have 30 rows if we use subject_test.txt  or subject_train.txt files. 
-		It will have only 6 rows if we use y_train.txt or y_test.txt files.  
+		It will have only 6 rows if we use y_train.txt or y_test.txt files.   
 		
 	  
 
