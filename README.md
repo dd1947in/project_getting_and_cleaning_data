@@ -42,7 +42,7 @@ summarise_each()<br>
 
 ## Tests
 
-This project is to be evaluated by peers by sourcing the script  "run_analysis.R" preferably in RStudio as displays  console output and Global Environment :
+This project is to be evaluated by peers by sourcing the script  "run_analysis.R" preferably in RStudio as it displays  console output and Global Environment :
 >source("run_analysis.R")
 Here is the console output<br>
 [1] " ... downloading data set ..."<br>
