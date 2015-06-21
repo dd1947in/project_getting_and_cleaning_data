@@ -21,8 +21,9 @@ Data source
 Tidy Data Features  
 -----------------
 	After a careful initial study of the dataset and given the requirement of the project work the following 73 
-	(72 features and subject id)columns were selected  for final tidy dataset.
-	The data file "column_subset_and_map_for_step2.txt"  needs to be present in the same folder as "run_analysis.R" .
+	(<b>72 features</b> and <b>subject id</b>)columns were selected  for final tidy dataset. These features have either "mean" or "std" in the feature name.<br>
+	
+	The data file "<b>column_subset_and_map_for_step2.txt</b>"  needs to be present in the same folder as "<b>run_analysis.R</b>" .
 	"column_subset_and_map_for_step2.txt" is prepared by the student based on the preliminary output of "features.txt"  .
 	"column_subset_and_map_for_step2.txt"  is very important for "subsetting" columns and "renaming" columns wtih descriptive names.<br><br><br><br>
 	
