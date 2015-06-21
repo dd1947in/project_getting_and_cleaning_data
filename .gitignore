@@ -13,6 +13,7 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*.zip
 
 # Windows shortcuts
 *.lnk
@@ -42,5 +43,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 data
+data/UCI HAR Dataset
 .RData
 .Rhistory
+UCI HAR Dataset
