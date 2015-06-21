@@ -5,7 +5,7 @@ CodeBook for smart phone data analysis (accelerometer & gyroscope data)
 Back Ground
 -----------
 	Human Activity Recognition Using Smartphones dataset by   UCI Machine Learning Repository.  Experiments were conducted on 30 subjects performing various activities while wearing smartphone (Samsung Galaxy S II) on the waist . 
-	The embedded accelrometer and gyroscope reading were captured and supplied as a dataset for a "Getting and Cleaning Data Project".
+	The embedded accelrometer and gyroscope reading were captured and supplied as a dataset for a "Getting and Cleaning Data Project". The raw data from accelerometer and gyroscope were sampled and transformed into 561 featrue vector in each sample.
 	
 	More information about the experiment, dataset, other minute details are available at :
 	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -14,7 +14,7 @@ Data source
 -----------
    For this particular project the raw / pre-processed data is made available at 
    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip   . 
-   This zip file contains all the minute experiment and pre-processing details.
+   This zip file contains  experiment and pre-processing details. README.txt file is included to make sense of the dataset.
    
 
 
