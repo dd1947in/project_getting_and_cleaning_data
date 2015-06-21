@@ -122,7 +122,7 @@ Cleaning Data
 	  * cbind subject_id's to  train and test data frames.
 	  * merge train & test dataset with rbind (xx_test_and_train.tab <- rbind(xx_train.tab, xx_test.tab) 
 	  * xx_test_and_train.tab has all the features of tidy dataset.
-	  * read the prepared data file to aid my in subsetting / renaming columns 
+	  * read the prepared data file to aid/help in subsetting / renaming columns 
 	     col_subset_map <- read.table("column_subset_and_map_for_step2.txt", header=TRUE, colClasses=c("integer", "character", "character"))
 	  * subset selected columns (xx_test_and_train_subset.tab <- xx_test_and_train.tab[,col_names_subset])
 	  * rename selected columns ( colnames(xx_test_and_train_subset.tab) <- col_names_desc)
