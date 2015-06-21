@@ -54,7 +54,7 @@ Here is the console output<br>
 [1] "... Grouping measurement by subject id ..."<br>
 [1] "...apply mean function to all columns..."<br>
 [1] "...write summarized data fram in file...final output in ..."<br>
-[1] "getting_and_clearning_data_project_output_final.txt"<br>
+[1] "getting_and_cleaning_data_project_final_tidy_data_set.txt"<br>
 ## Contributors
 This project is submitted for getting academic credit only. 
 
