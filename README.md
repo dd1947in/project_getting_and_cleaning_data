@@ -23,9 +23,15 @@ e.g. <br>
 
 This project is submitted for getting project credit in course "Getting and Cleaning Data"
 
-## Installation
+## Installation & Evaluation
+   Please use RStudio for running the script. If necessary install "dplyr" package.
 
-No installation is needed. This project uses package 'dplyr'.
+  * Check out the project . 
+  * Start RStudio / R
+  * > setwd("C:/checked_out_folder")  
+  * > source("run_analysis.R")
+  * getting_and_cleaning_data_project_final_tidy_data_set.txt file will be created in working/project directory.
+  * Please verify all the "Data", "Values", & Functions in Environment tab . Click on table icons to view all data frames in RStudio.
 
 ## API Reference
 
