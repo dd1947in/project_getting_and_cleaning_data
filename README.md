@@ -31,7 +31,7 @@ This project is submitted for getting project credit in course "Getting and Clea
   * > setwd("C:/checked_out_folder")  
   * > source("run_analysis.R")
   * getting_and_cleaning_data_project_final_tidy_data_set.txt file will be created in working/project directory.
-  * Please verify all the "Data", "Values", & Functions in Environment tab . Click on table icons to view all data frames in RStudio.
+  * Please verify all the "Data", "Values", & Functions in Environment tab in RStudio. Click on table icons to view all data frames in RStudio.
 
 ## API Reference
 
