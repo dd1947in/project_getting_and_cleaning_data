@@ -8,7 +8,7 @@ Back Ground
 	The embedded accelrometer and gyroscope reading were captured and supplied as a dataset for a "Getting and Cleaning Data Project". The raw data from accelerometer and gyroscope were sampled and transformed into 561 featrue vector in each sample.
 	
 	More information about the experiment, dataset, other minute details are available at :
-	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+	<b>http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones</b> 
 
 Data source
 -----------
