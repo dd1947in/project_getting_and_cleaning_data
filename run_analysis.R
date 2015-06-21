@@ -1,11 +1,5 @@
 # Coursera / Data Science / Getting and Cleaning Data / Project
 
-######Editable Parameters BEGIN###########
-#project.dir <- "C:/GettingAndCleaningData"
-project.dir <- getwd()
-data.dir <- "data"
-
-######Editable Parameters END###########
 library(dplyr)
 download_data_set <- function(url, destfile)
 {
@@ -14,39 +8,37 @@ download_data_set <- function(url, destfile)
 }
 unzip_data_set <- function(zipfile)
 {
-    unzip(zipfile, files = NULL, list = FALSE, overwrite = TRUE, exdir=data.dir, unzip= "internal", setTimes=TRUE)
+    unzip(zipfile, files = NULL, list = FALSE, overwrite = TRUE,  unzip= "internal", setTimes=TRUE)
 }
 
 
 ###########Non-Editable Params#########
-#tidy.data.file <- paste(data.dir, "getting_and_clearning_data_project_output_final.txt", sep="/")
+
 tidy.data.file <- "getting_and_cleaning_data_project_final_tidy_data_set.txt"
-data.file <- paste(data.dir, "getdata-projectfiles-UCI-HAR-Dataset.zip", sep="/")
+data.file <- "getdata-projectfiles-UCI-HAR-Dataset.zip"
 data.url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-features.txt <- paste(data.dir, "UCI HAR Dataset/features.txt", sep="/")
-activity_labels.txt <- paste(data.dir,  "UCI HAR Dataset/activity_labels.txt", sep="/")
+features.txt <- "UCI HAR Dataset/features.txt"
+activity_labels.txt <- "UCI HAR Dataset/activity_labels.txt"
 
-x_train.txt <- paste(data.dir,  "UCI HAR Dataset/train/X_train.txt", sep="/")
-#y_train.txt <- paste(data.dir,  "UCI HAR Dataset/train/y_train.txt", sep="/")
-y_train.txt <- paste(data.dir,  "UCI HAR Dataset/train/subject_train.txt", sep="/") #???
+x_train.txt <- "UCI HAR Dataset/train/X_train.txt"
+#y_train.txt <-  "UCI HAR Dataset/train/y_train.txt"
+y_train.txt <-  "UCI HAR Dataset/train/subject_train.txt"
 
-x_test.txt <- paste(data.dir,  "UCI HAR Dataset/test/X_test.txt", sep="/")
-#y_test.txt <- paste(data.dir,  "UCI HAR Dataset/test/y_test.txt", sep="/")
-y_test.txt <- paste(data.dir,  "UCI HAR Dataset/test/subject_test.txt", sep="/") #???
+x_test.txt <- "UCI HAR Dataset/test/X_test.txt"
+#y_test.txt <- "UCI HAR Dataset/test/y_test.txt"
+y_test.txt <- "UCI HAR Dataset/test/subject_test.txt"
 
 ###########Non-Editable Params#########
-# Check and Create "data" dir if necessary
-if(!file.exists(data.dir)){
-  dir.create(data.dir)
-}
 
 #download data set and unzip it in working directory
-print (" ... downloading data set ...")
-download_data_set(data.url, data.file)
-
-print (" ... unzipping the data  set ...")
-
-unzip_data_set(data.file)
+if(!file.exists(data.file)) {
+  print (" ... downloading data set ...")
+  download_data_set(data.url, data.file)
+}
+if(!file.exists(x_train.txt)) {
+  print (" ... unzipping the data  set ...")
+  unzip_data_set(data.file)
+}
 
 
 print (" ... loading features.txt, activity_labels.txt ...")
