@@ -19,7 +19,7 @@ No installation is needed. This project uses package 'dplyr'.
 
 ## API Reference
 
-This project uses the following APIs for various steps in the project.
+This project uses the following APIs for various steps in the project.<br>
 download.file()<br>
 unzip()<br>
 paste()<br>
