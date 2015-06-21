@@ -3,7 +3,7 @@
 This project is  developed and submitted to satisfy the requirements of project work for the Coursera - Data  Science Course  "Getting and Cleaning Data".  
 
 Project folder includes the following:
-  * run_analysis.R   the R script file
+  * <b>run_analysis.R</b>   the R script file
   * column_subset_and_map_for_step2.txt   a  required data file used by run_analysis.R . This file contains the columns to be subset and column mapping to descriptive names.
   * project_RStudio_snip.PNG    (RStudio screen shot)
   * project_final_tidy_data_set_in_RStudio.PNG (RStudio screen shot)
